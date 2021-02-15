@@ -1,6 +1,7 @@
 # Inverted Corners
 [![npm](https://img.shields.io/npm/v/inverted-corners)](https://www.npmjs.com/package/inverted-corners)
 [![NPM](https://img.shields.io/npm/l/inverted-corners)](https://github.com/over-engineer/inverted-corners/blob/master/LICENSE)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7944c324-f8a4-4fe3-9e56-5aba031e4624/deploy-status)](https://app.netlify.com/sites/inverted-corners/deploys)
 
 🎨 A Houdini Paint worklet for inverted corners.
 
