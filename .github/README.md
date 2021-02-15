@@ -1,5 +1,5 @@
 <p align="center">
-    <img width="128" height="128" src="site/src/images/logo.svg" />
+    <img width="128" height="128" src="../site/src/images/logo.svg" />
 </p>
 
 # Inverted Corners
