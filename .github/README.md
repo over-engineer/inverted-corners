@@ -1,3 +1,7 @@
+<p align="center">
+    <img width="128" height="128" src="site/src/images/logo.svg" />
+</p>
+
 # Inverted Corners
 [![npm](https://img.shields.io/npm/v/inverted-corners.svg)](https://www.npmjs.com/package/inverted-corners)
 [![NPM](https://img.shields.io/npm/l/inverted-corners.svg)](https://github.com/over-engineer/inverted-corners/blob/master/LICENSE)

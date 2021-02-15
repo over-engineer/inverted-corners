@@ -63,3 +63,6 @@ $RECYCLE.BIN/
 
 # Gatsby site
 site/
+
+# GitHub-specific
+.github
