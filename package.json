@@ -1,0 +1,30 @@
+{
+  "name": "inverted-corners",
+  "version": "1.0.0",
+  "description": "A Houdini Paint worklet for inverted corners using the CSS Paint API.",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/over-engineer/inverted-corners.git"
+  },
+  "keywords": [
+    "inverted",
+    "corners",
+    "reversed",
+    "houdini",
+    "css",
+    "paint",
+    "worklet"
+  ],
+  "author": "over-engineer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/over-engineer/inverted-corners/issues"
+  },
+  "homepage": "https://github.com/over-engineer/inverted-corners#readme"
+}
