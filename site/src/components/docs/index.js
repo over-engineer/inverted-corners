@@ -51,7 +51,7 @@ const Docs = () => {
       </p>
       <p>
         <SyntaxHighlighter language="html" style={dracula}>
-          {`<script src="https://unpkg.com/inverted-corners/inverted-corners.min.js"></script>`}
+          {`<script src="https://unpkg.com/inverted-corners/lib/inverted-corners.min.js"></script>`}
         </SyntaxHighlighter>
       </p>
       
@@ -66,7 +66,7 @@ const Docs = () => {
         <SyntaxHighlighter language="javascript" style={dracula}>
           {`if ('paintWorklet' in CSS) {
     // Browser supports paint worklets, add the module
-    CSS.paintWorklet.addModule('https://unpkg.com/inverted-corners/inverted-corners-worklet.min.js');
+    CSS.paintWorklet.addModule('https://unpkg.com/inverted-corners/lib/inverted-corners-worklet.min.js');
 } else {
     console.warn('Paint Worklet is not supported on your browser.');
 }`}

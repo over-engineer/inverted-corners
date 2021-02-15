@@ -37,13 +37,13 @@
 Add the following to your HTML to include **Inverted Corners** using [unpkg](https://unpkg.com/).
 
 ```html
-<script src="https://unpkg.com/inverted-corners/inverted-corners.min.js"></script>
+<script src="https://unpkg.com/inverted-corners/lib/inverted-corners.min.js"></script>
 ```
 
 Omit the version number to use the latest version, or use a specific one:
 
 ```html
-<script src="https://unpkg.com/inverted-corners@1.1.0/inverted-corners.min.js"></script>
+<script src="https://unpkg.com/inverted-corners@1.1.0/lib/inverted-corners.min.js"></script>
 ```
 
 That's it! Read the [Usage](#-usage) section to learn how to access the paint worklet.
@@ -53,7 +53,7 @@ That's it! Read the [Usage](#-usage) section to learn how to access the paint wo
 If you want to include the worklet yourself, you can add the paint module like this:
 
 ```javascript
-CSS.paintWorklet.addModule('https://unpkg.com/inverted-corners/inverted-corners-worklet.min.js');
+CSS.paintWorklet.addModule('https://unpkg.com/inverted-corners/lib/inverted-corners-worklet.min.js');
 ```
 
 For example, in a React app you could execute this on the component mount:
@@ -64,7 +64,7 @@ import React, { useEffect } from 'react';
 const MyComponent = () => {
     useEffect(() => {
         if ('paintWorklet' in CSS) {
-            CSS.paintWorklet.addModule('https://unpkg.com/inverted-corners/inverted-corners-worklet.min.js');
+            CSS.paintWorklet.addModule('https://unpkg.com/inverted-corners/lib/inverted-corners-worklet.min.js');
         }
     }, []);
 
