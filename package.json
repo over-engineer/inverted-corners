@@ -1,6 +1,6 @@
 {
   "name": "inverted-corners",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Houdini Paint worklet for inverted corners using the CSS Paint API.",
   "directories": {
     "lib": "lib"
