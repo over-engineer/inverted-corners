@@ -67,7 +67,7 @@ const Demo = () => {
   useEffect(() => {
     // Initialize the Houdini Paint worklet
     if ('paintWorklet' in CSS) {
-      CSS.paintWorklet.addModule('worklets/inverted-corners-worklet.min.js');
+      CSS.paintWorklet.addModule('https://unpkg.com/inverted-corners/lib/inverted-corners-worklet.min.js');
     } else {
       console.warn('Houdini\'s Paint Worklet is not supported on your browser.');
     }
