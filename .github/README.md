@@ -203,9 +203,9 @@ list-style-image: url(YOUR_IMAGE);
 
 Take a look at the following examples:
 
-* [Browser tab](https://codepen.io/)
-* [Navbar menu](https://codepen.io/)
-* [Instant messaging](https://codepen.io/)
+* [Browser tab](https://codepen.io/over-engineer/pen/RwopNoM)
+* [Navbar menu](https://codepen.io/over-engineer/pen/rNWyaje)
+* [Instant messaging](https://codepen.io/over-engineer/pen/KKNWwNO)
 
 ## 🐞 Bugs & Features
 

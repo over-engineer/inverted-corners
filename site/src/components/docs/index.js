@@ -2,6 +2,7 @@ import React from 'react';
 import { createUseStyles, useTheme } from 'react-jss';
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { dracula } from 'react-syntax-highlighter/dist/esm/styles/prism';
+import Codepen from 'react-codepen-embed';
 
 import Emoji from '../emoji';
 
@@ -171,11 +172,15 @@ mask-image: paint(inverted-corners);`}
       </p>
 
       <h2>Examples</h2>
-      <p>Coming soon.</p>
-
-      {/* codepen embedded example #1 */}
-      {/* codepen embedded example #2 */}
-      {/* codepen embedded example #3 */}
+      
+      <h3>Browser tab</h3>
+      <Codepen hash="RwopNoM" user="over-engineer" />
+      
+      <h3>Navbar</h3>
+      <Codepen hash="rNWyaje" user="over-engineer" />
+      
+      <h3>Instant Messaging</h3>
+      <Codepen hash="KKNWwNO" user="over-engineer" />
 
       <h2>Bugs & Features</h2>
       <p>If you have spotted any bugs, or would like to request additional features from the library, please <a href="https://github.com/over-engineer/inverted-corners/issues" className={classes.link} rel="noreferrer" target="_blank">file an issue</a>.</p>
